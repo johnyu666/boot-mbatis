@@ -1,0 +1,30 @@
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{"name": "tomli"}
+
+###
+
+GET http://localhost:8080/books
+Accept: application/json
+
+###
+
+GET http://localhost:8080/books/35
+Accept: application/json
+
+###
+
+PUT http://localhost:8080/books/35
+Content-Type: application/json
+
+{
+  "name":"MikeLiu1"
+}
+
+###
+
+DELETE http://localhost:8080/books/35
+Accept: application/json
+
+###
